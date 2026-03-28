@@ -1,0 +1,1 @@
+export const BACKEND_URL='http://192.168.0.143:8080/api'
