@@ -1,0 +1,103 @@
+# =========================
+# 🔥 GENERAL
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
+*.env
+.env.*
+!.env.example
+
+# =========================
+# ⚛️ REACT (admin/)
+# =========================
+admin/node_modules/
+admin/build/
+admin/dist/
+admin/.env
+admin/.env.local
+admin/.env.development.local
+admin/.env.test.local
+admin/.env.production.local
+admin/npm-debug.log*
+admin/yarn-debug.log*
+admin/yarn-error.log*
+admin/.parcel-cache/
+admin/.next/
+admin/out/
+
+# =========================
+# 📱 REACT NATIVE (wastemanagementapp/)
+# =========================
+wastemanagementapp/node_modules/
+wastemanagementapp/android/.gradle/
+wastemanagementapp/android/app/build/
+wastemanagementapp/android/build/
+wastemanagementapp/ios/Pods/
+wastemanagementapp/ios/build/
+wastemanagementapp/.expo/
+wastemanagementapp/.expo-shared/
+wastemanagementapp/.env
+wastemanagementapp/npm-debug.log*
+wastemanagementapp/yarn-debug.log*
+wastemanagementapp/yarn-error.log*
+wastemanagementapp/.env
+
+# Metro / RN cache
+wastemanagementapp/.metro-health-check*
+wastemanagementapp/.bundle/
+
+# =========================
+# ☕ SPRING BOOT (backend/)
+# =========================
+backend/target/
+backend/build/
+backend/*.jar
+backend/*.war
+backend/*.log
+
+# Maven
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Gradle (if used)
+backend/.gradle/
+backend/gradlew
+backend/gradlew.bat
+
+# Application properties (sensitive)
+backend/src/main/resources/application.properties
+backend/src/main/resources/application.yml
+
+# =========================
+# 🔐 SECRETS
+# =========================
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+
+# =========================
+# 🧪 TEST / COVERAGE
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# 🧱 BUILD OUTPUTS
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# 🧠 TYPESCRIPT
+# =========================
+*.tsbuildinfo
